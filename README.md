@@ -13,7 +13,5 @@ Only one table: Patient which you can find the details in the db.sql file.
 * All the data from PC nodes will get synced to the Main nodes on INSERT, UPDATE, DELETE
 * All the data from PC nodes will get synced to the other PC nodes if the filed SYNC has the value of 'ALL', on INSERT, UPDATE and DELETE
 
-
-Please pay attention to the node configuration files (*.properties files) and update the database url, username and password as well as the servers' IP addresses.
-
 The main configuration of the registration  node (the only main node in the current topology) is in main00.sql.
+Other nodes will get configured automatically on first connection to the registration node.
